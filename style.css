@@ -1,0 +1,79 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#nav-section {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.418);
+    position: relative;
+    color:black;
+    top: 0;
+    z-index: 5;
+    position: fixed;
+    padding: 1rem;
+
+  }
+  #nav-section > .nav-header {
+    display: inline;
+    margin-left: 10rem;
+  }
+  
+  #nav-section > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    padding: 10px ;
+    
+  }
+  #nav-section > .nav-header > .nav-title > a{
+    color:white;
+    text-decoration:None;
+    font-weight:bolder;
+  }
+  #nav-section > .nav-btn {
+    display: none;
+  }
+  
+  #nav-section > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    margin-right: 10rem;
+  }
+  
+  #nav-section > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+  }
+  
+  #nav-section > .nav-links > a:hover {
+    border-bottom: 2px solid orangered;
+    color: orangered;
+  }
+  #navsab-button{
+    background-color: orangered;
+       text-decoration: none;
+       border: none;
+       padding: 14px 22px;
+       margin-left: 0.5rem;
+       border-radius: 20px;
+  }
+  #navsab-button a{
+      color: white;
+      font-weight: 500;
+      text-decoration: none;
+   }
+  
+  #nav-section > #nav-check {
+    display: none;
+  }
+  .banner{
+        margin-top: 70px;
+        display: flex;
+        z-index: 1;
+        
+  }
